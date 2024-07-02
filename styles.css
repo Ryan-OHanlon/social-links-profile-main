@@ -1,18 +1,78 @@
 @font-face {
     font-family: Inter;
-    src: url(https://fonts.google.com/specimen/Inter);
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
-
+/*Flexbox used to center all elements to middle of webpage*/
 body{
     font-family: "Inter";
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+/*Box to contain profile and social links*/
+main{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 1em;
+    width: 375px;
+    height: auto;
+    padding-bottom: 1em;
+    padding-top: 2em;
+}
+/*Font size used to meet style guide requirements*/
+p{
+    font-size: 14px;
+}
+/*Profile section using image, name, location, and quote*/
+.profile{
+    text-align: center;
 }
 
+img{
+    border-radius: 10em;
+    width: 6em;
+    height: auto;
+}
 
+.profile h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+/*id class location used to color location text green*/
+.profile #location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-top: -0.5em;
+    margin-bottom: 1.5em;
+}
+.profile p{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+/*Social link buttons*/
+.social{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.5em;
+    margin: 20px 50px;
+    padding: 15px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 14px;
+}
 
-
+/*Changes div to green and text to black*/
+.social:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+/*CSS for links to FrontEnd Mentor and Github Repository*/
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    color: white; 
 }
 
 .attribution a { 
