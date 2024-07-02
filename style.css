@@ -4,7 +4,7 @@
 }
 /*Flexbox used to center all elements to middle of webpage*/
 body{
-    font-family: "Inter";
+    font-family: Inter;
     background-color: hsl(0, 0%, 8%);
     display: flex;
     flex-direction: column;
