@@ -53,11 +53,16 @@ img{
     margin-bottom: 2em;
 }
 /*Social link buttons*/
+button{
+    width: 75%;
+    border: none;
+}
+
 .social{
     background-color: hsl(0, 0%, 20%);
     border-radius: 0.5em;
-    margin: 20px 50px;
-    padding: 15px;
+    margin: 0.5em;
+    padding: 1em;
     color: hsl(0, 0%, 100%);
     font-weight: 600;
     font-size: 14px;
@@ -67,6 +72,7 @@ img{
 .social:hover{
     background-color: hsl(75, 94%, 57%);
     color: black;
+    cursor: pointer;
 }
 /*CSS for links to FrontEnd Mentor and Github Repository*/
 .attribution { 
